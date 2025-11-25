@@ -1,0 +1,22 @@
+# Library Management System in C
+
+This is my **first project posted on GitHub**!
+
+A simple **command-line Library Management System** written in **C**. This program allows you to manage a small library by adding, viewing, searching, issuing, returning, and removing books. It is designed for beginners learning **C programming** and basic data structures using **arrays and structs**.
+
+## Features
+- Add new books with **Title, Author, and ISBN**  
+- View all books in the library  
+- Search for a book by **ISBN**  
+- Issue a book (mark as issued)  
+- Return a book (mark as available)  
+- Remove a book from the library  
+- Simple menu-driven interface
+
+## How to Run
+1. Make sure **GCC** or another C compiler is installed  
+2. Save the file as `library_management.c`  
+3. Open terminal or command prompt in the folder  
+4. Compile the program:
+```bash
+gcc library_management.c -o library_management
